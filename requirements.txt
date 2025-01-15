@@ -1,0 +1,11 @@
+---- System Level ---
+
+apt install python3-pip python3-dev ffmpeg libsndfile1ffmpeg
+
+---- VENV Level ---
+
+pip install git+https://github.com/openai/whisper.git
+pip install speechrecognition
+pip install piper-tts
+python3 -m pip install sounddevice
+pip3 install pyaudio
